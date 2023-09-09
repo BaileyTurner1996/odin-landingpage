@@ -1,0 +1,161 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, san-serif;
+    justify-content: space-around;
+    margin: 0;
+}
+
+img {
+    width: 200px;
+    border-radius: 25px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    background-color: #8D9E64;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+header {
+    display: flex;
+    background-color: #434A31;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+footer {
+    background-color: #434A31;
+    display: flex;
+    justify-content: center;
+    padding: 20px 100px;
+}
+
+.hero {
+    background-color: #434A31;
+    display: flex;
+    padding: 50px 100px;
+    gap: 50px;
+}
+
+.herocontent {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    gap: 25px;
+    flex-grow:1;
+}
+
+.info {
+    display: flex;
+    padding: 50px 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    gap: 10px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #DED8CE;
+    padding: 50px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.action {
+    background-color: #8D9E64;
+    margin: 50px 100px;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.secondText {
+    font-size: 18px;
+}
+
+.whiteText {
+    color: #E5E7EB;
+}
+
+.heroMainText {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.infoMainText {
+    font-size: 36px;
+    font-weight: 900;
+    color: #434A31;
+}
+
+.quoteText {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+}
+
+.quoteTitle {
+    align-self: flex-end;
+}
+
+.topButton {
+    border-style: none;
+    width: 150px;
+}
+
+#heroimage {
+    width: 400px;
+    border-radius: 0;
+    flex-grow: 2;
+}
